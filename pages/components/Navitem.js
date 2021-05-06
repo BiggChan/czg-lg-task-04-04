@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 
 
 export default function Navitem({data}) {
-    const url = data.url | 'https://edu.lagou.com/'
+    const url =( data && data.url )|| 'https://edu.lagou.com/'
     const name = data.name
     return (
         <Box m="10px"  w="108px" h="108px">
