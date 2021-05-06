@@ -1,4 +1,4 @@
-const initialState = [{name:'baidu',url:"http://www.baidu.com"},{name:'163',url:"http://www.163.com"},{name:'qq',url:"http://www.qq.com"},{name:'baidu',url:"http://www.baidu.com"},{name:'163',url:"http://www.163.com"},{name:'qq',url:"http://www.qq.com"}]
+const initialState = [{name:'baidu',url:"http://www.baidu.com"},{name:'163',url:"http://www.163.com"},{name:'qq',url:"http://www.qq.com"}]
 
 export default function (state = initialState, action) {
     switch (action.type) {
